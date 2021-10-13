@@ -15,7 +15,7 @@ project_path = Dir.glob("#{current_path}/ios/*.xcodeproj").first
 file_name = File.basename(project_path, ".xcodeproj")
 project_location = "./ios/#{file_name}.xcodeproj"
 default_target_name = file_name
-framework_root = "../node_modules/#{package["name"]}/ios"
+framework_root = "../node_modules/#{package["name"]}/ios/pods/Instabug"
 framework_name = 'Instabug.xcframework'
 
 INSTABUG_UPLOAD_NAME = "Upload Sourcemap"

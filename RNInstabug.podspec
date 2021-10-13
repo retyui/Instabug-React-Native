@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = 'ios/RNInstabug/*'
   s.platform     = :ios, "9.0"
   s.static_framework = true
-  s.ios.vendored_frameworks = 'ios/Instabug.xcframework'
   s.dependency 'React'
+  s.dependency 'Instabug', '10.9.2'
 end
